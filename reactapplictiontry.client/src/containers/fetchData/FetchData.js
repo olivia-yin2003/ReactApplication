@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import './App.css';
+import './fetchData.css';
 
-function App() {
+function FetchData() {
     const [forecasts, setForecasts] = useState();
 
     useEffect(() => {
@@ -46,4 +46,4 @@ function App() {
     }
 }
 
-export default App;
+export default FetchData;

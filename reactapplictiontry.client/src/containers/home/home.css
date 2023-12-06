@@ -1,0 +1,69 @@
+.homePage {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+@media (max-width: 991px) {
+    .homePage {
+        padding: 0;
+    }
+}
+.homeTitle {
+    color: var(--colour-main-blue-900, #091133);
+    font-feature-settings: "clig" off, "liga" off;
+    align-self: start;
+    width: 520px;
+    max-width: 100%;
+    margin: 150px 0 0 60px;
+    font: 500 36px/48px Roboto, -apple-system, Roboto, Helvetica,
+        sans-serif;
+}
+@media (max-width: 991px) {
+    .homeTitle {
+        align-self: center;
+        text-align: center;
+        margin: 150px 0 0 0;
+    }
+}
+.homeSubtitle {
+    color: var(--colour-main-blue-400, #6f7cb2);
+    font-feature-settings: "clig" off, "liga" off;
+    align-self: start;
+    width: 520px;
+    max-width: 100%;
+    margin: 20px 0 0 60px;
+    font: 400 16px/26px Roboto, -apple-system, Roboto, Helvetica,
+        sans-serif;
+}
+@media (max-width: 991px) {
+    .homeSubtitle {
+        align-self: center;
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+}
+.tryButton {
+    color: #fff;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    background-color: #000;
+    align-self: start;
+    width: 520px;
+    max-width: 100%;
+    margin: 28px 0 198px 60px;
+    padding: 12px 20px;
+    font: 600 20px/24px Inter, -apple-system, Roboto, Helvetica,
+        sans-serif;
+    text-align: center;
+}
+@media (max-width: 991px) {
+    .tryButton {
+        white-space: initial;
+        margin-bottom: 40px;
+        align-self: center;
+        margin: 28px 0 0 0;
+    }
+}
