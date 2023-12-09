@@ -1,4 +1,5 @@
 export { default as Home } from './home/Home';
+export { default as ToolTest } from './toolTest/ToolTest';
 export { default as FetchData } from './fetchData/FetchData';
 export { default as Tool } from './ref/Tool';
 export { default as Ranking } from './ranking/Ranking';

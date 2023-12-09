@@ -15,6 +15,9 @@ const NavMenu = () => {
               <NavLink tag={Link} className="text-dark" to="/">Home</NavLink>
             </NavItem>
             <NavItem>
+              <NavLink tag={Link} className="text-dark" to="/toolTest">ToolTest</NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink tag={Link} className="text-dark" to="/fetchData">FetchData</NavLink>
             </NavItem>
             <NavItem>
